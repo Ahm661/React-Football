@@ -16,7 +16,7 @@ export default function MatchDay() {
         <div className='pl-20 pr-20'>
             {Match.map(Match => (
                 <div className="flex justify-between border border-black border-solid rounded-sm mb-2 h-10 " key={""}>
-                    <div>{Match.team1.teamName}</div> vs <div>{Match.team2.teamName}</div>
+                    <div> {Match.team1.teamName}</div> vs <div>{Match.team2.teamName}</div>
                 </div>
             ))}
         </div>
